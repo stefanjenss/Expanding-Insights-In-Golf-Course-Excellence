@@ -13,9 +13,9 @@ The script uses the pandas library to read in the Excel file and convert it into
 import pandas as pd
 
 # Load in the dataset
-file_path = "top_and_non_golf_course_reviews.xlsx"
+file_path = "top_and_non_golf_course_reviews_ABREVIATED.xlsx"
 df = pd.read_excel(file_path)
 
 # Convert the dataframe to a csv file
-csv_name = "top_and_non_golf_course_reviews.csv"
+csv_name = "top_and_non_golf_course_reviews_ABREVIATED.csv"
 df.to_csv(csv_name, index=False)

@@ -151,7 +151,7 @@ Encoder:
 
 # Define the BERT pre-processing model and the encoder
 tfhub_handle_preprocess = "https://tfhub.dev/tensorflow/bert_en_uncased_preprocess/3"
-tfhub_handle_encoder = "https://tfhub.dev/tensorflow/small_bert/bert_en_uncased_L-4_H-512_A-8/1"
+tfhub_handle_encoder = "https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/4"
 
 # Load the BERT pre-processing model and the encoder
 preprocessor = hub.KerasLayer(tfhub_handle_preprocess)
