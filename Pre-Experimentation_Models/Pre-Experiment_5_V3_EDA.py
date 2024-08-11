@@ -101,7 +101,7 @@ plt.title("Distribution of Token Size of of Golf Course Reviews in the Dataset",
 plt.xlabel("Tokens per Document", fontsize=12)
 plt.ylabel("Number of Courser Reviews", fontsize=12)
 plt.tight_layout()
-# plt.savefig('/Users/stefanjenss/Documents/MSDS_458_Artificial_Intelligence_and_Deep_Learning/Assignment_3/Figures/2.1_EDA_token_size_distribution.png', dpi=300)
+plt.savefig("/Users/stefanjenss/Documents/Expanding-Insights-In-Golf-Course-Excellence/Figures/1_distribution_of_token_size_of_of_golf_course_reviews_in_the_dataset.png", dpi=300)
 plt.show()
 # %%
 print(f"There are {len(text_vectorization.get_vocabulary())} vocabulary words in the corpus.")
